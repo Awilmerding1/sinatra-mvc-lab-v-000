@@ -22,7 +22,7 @@ class PigLatinizer
           word << "#{sliced}ay"
       end
     end
-    array
+    array.join
   end
 
   
