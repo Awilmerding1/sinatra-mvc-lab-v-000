@@ -23,7 +23,6 @@ class PigLatinizer
       end
     end
     array
-    binding.pry
   end
 
   
