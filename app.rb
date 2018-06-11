@@ -8,7 +8,7 @@ class App < Sinatra::Base
   
   post '/piglatinize' do
     
-    
+    @piglatin = PigLatinize.new.
     
     erb :piglatinize
   end
